@@ -19,10 +19,51 @@ console.log(booleanIsLoggedIn);//true
 //0 =>false
 //"" =>false
 //"harshita" =>true
-
+ 
 let someNumber = 33;
 let stringNumber = String(someNumber);
 console.log(stringNumber);//33
 console.log(typeof stringNumber);//string
+
+// **************************** OPERATIONS*******************************
+
+let value =3;
+let negvalue = -value;
+console.log(negvalue);  //-3
+
+/*
+console.log(2+2); //addition
+console.log(2-2); //subtraction
+console.log(2*2); //multiplication
+console.log(2/2); //division
+console.log(2%2); //modulus
+console.log(2**2); //power
+*/
+
+let str1 = "hello";
+let str2 = "  harshita";
+let str3 = str1 + str2;
+console.log(str3); // hello harshita
+
+console.log("1" +2);
+console.log(1 +"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+console.log( (3+4) *5 % 3);
+
+console.log(true);//true
+console.log(+true); //1
+
+
+
+
+
+
+
+
+
+
+
 
 
