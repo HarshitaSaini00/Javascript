@@ -27,3 +27,7 @@ const myFunction = function(){
 // typeof = for checking the datatype of the variable
 // typeof(null) = object
 //typeof(function) = function
+
+//********************** MEMORY******************* 
+// stack use in (primitive) data types
+// heap use in (non primitvie) data types
