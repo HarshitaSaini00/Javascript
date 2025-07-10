@@ -31,6 +31,16 @@ console.log(Object.entries(tinderUser)); // it gives the key value pair separate
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // it checks the property that we pass in the argument checks this property exists or not in the object 
 //gives the result in the true or false
 
+const course ={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"harshita"
+}
+// course.courseInstructor -- again and again use of this we use downward syntax
+
+// this is called object destructuring
+const{courseInstructor:instructor} =course; //we allocates the name of the object according to us
+console.log(courseInstructor);
 
 
 
