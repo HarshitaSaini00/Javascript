@@ -25,7 +25,7 @@ const startChangingColor = function(){
 
 
 function changeBgColor(){
-  document.body.style.backgroundColor = randomColor
+  document.body.style.backgroundColor = randomColor();
 }
 };
 
