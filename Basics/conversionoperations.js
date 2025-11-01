@@ -45,8 +45,15 @@ let str2 = "  harshita";
 let str3 = str1 + str2;
 console.log(str3); // hello harshita
 
-console.log("1" +2);
+console.log("1" +2); 
+//JS converts 2 → "2"
+// Then concatenates: "1" + "2" = "12"
+
 console.log(1 +"2");
+//1 + "2"
+//"1" + "2"
+//"12"
+//string
 console.log("1"+2+2);
 console.log(1+2+"2");
 
