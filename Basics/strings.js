@@ -21,6 +21,6 @@ const newstr2 = "   harshita   ";
 console.log(newstr.trim()); // trim method cuts the extra spaces from the string
 
 const newstr3 = "harshita";
-console.log(newstr.replace('a','h')); //replace(what to replace , from what to replace)
+console.log(newstr3.replace('a','h')); //replace(what to replace , from what to replace)
 console.log(newstr3.includes('harsh')); // gives true or false if exist or not
 
