@@ -1,7 +1,11 @@
 let myDate = new Date();
-console.log(myDate.toString());
-console.log(myDate.toDateString());
-console.log(myDate.toLocaleString());
+console.log(myDate.toString()); // toString() poori date ko readable full format me convert karta hai (date + time + timezone).
+//Fri Oct 10 2025 15:45:30 GMT+0530 (India Standard Time)
+console.log(myDate.toDateString()); //Sirf date part return karta hai (time or timezone nahi).
+//Fri Oct 10 2025
+console.log(myDate.toLocaleString());//Date ko local format me dikhata hai (user ke location & system settings ke hisaab se).
+//10/10/2025, 3:45:30 PM
+
 // these are the methods of date that gives the date in different ways
 console.log(typeof myDate); //object
 
