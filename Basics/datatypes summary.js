@@ -10,7 +10,7 @@ let userEmail;
 
 const id = symbol('123');
 const anotherid =symbol('123');
-console.log(id===anotherid); //false
+console.log(id===anotherid); //false  -- every symbol is unique 
 
 // Reference - non primitive
 // Array ,objects, functions
