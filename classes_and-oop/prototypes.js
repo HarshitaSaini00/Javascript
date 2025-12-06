@@ -33,7 +33,7 @@ myHeros.heyHarshita();
 
 const user ={
     name:"chai",
-    email:chai@google.com;
+    email:"chai@google.com"
 }
 
 const teacher ={
